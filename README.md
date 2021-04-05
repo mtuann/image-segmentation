@@ -1,5 +1,16 @@
 # image-segmentation
 
+
+## Related Paper for Segmentation
+- [Loss functions](https://github.com/JunMa11/SegLoss)
+- [SOTA-Medical-Image-Segmentation-Update 2021-01](https://github.com/JunMa11/SegLoss)
+- [Active Deep Learning for Medical Imaging Segmentation](https://github.com/marc-gorriz/CEAL-Medical-Image-Segmentation)
+- [Awesome GAN for Medical Imaging](https://github.com/xinario/awesome-gan-for-medical-imaging)
+- [VNet](https://github.com/mattmacy/vnet.pytorch)
+- [A 3D multi-modal medical image segmentation library in PyTorch](https://github.com/black0017/MedicalZooPytorch)
+- [UNet: semantic segmentation with PyTorch](https://github.com/milesial/Pytorch-UNet)
+- [UNet-related model](https://github.com/ShawnBIT/UNet-family)
+
 ## Set up enviroments
 1. Fill out the library in enviroment.yml file
 2. Create condata enviroments with prefix
