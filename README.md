@@ -1,6 +1,5 @@
 # image-segmentation
 
-
 ## Related Paper for Segmentation
 - [Loss functions](https://github.com/JunMa11/SegLoss)
 - [SOTA-Medical-Image-Segmentation-Update 2021-01](https://github.com/JunMa11/SegLoss)
@@ -11,6 +10,12 @@
 - [UNet: semantic segmentation with PyTorch](https://github.com/milesial/Pytorch-UNet)
 - [UNet-related model](https://github.com/ShawnBIT/UNet-family)
 
+## Convolutional Layers:
+### Shape format:
+- image: (h, w, c), filter: (f_h, f_w, c), padding: P = (F - 1)/ 2, F: width of the padding, stride: S
+    - output_width = ((W-F) + 2 * P / S ) + 1
+- Number of parameters in layers:
+    - Convolution layers: feature dimension: l -> k: ( m * n * l + 1 ) * k; m, n is the shape of the Convolutional filter
 ## Set up enviroments
 1. Fill out the library in enviroment.yml file
 2. Create condata enviroments with prefix
@@ -24,7 +29,6 @@
 6. Update package
 ``` conda env update --prefix ./env --file environment.yml --prune) # update the environment ```
 7. [For more information about conda](https://kaust-vislab.github.io/python-novice-gapminder/00-getting-started-with-conda/index.html)
-
 
 ## Other check CUDA
 1. cuda version: ``` nvidia-smi ```
