@@ -27,8 +27,15 @@
 5. Check version of the package
 ``` conda list | grep numpy```
 6. Update package
-``` conda env update --prefix ./env --file environment.yml --prune) # update the environment ```
+``` conda env update --prefix ./env --file environment.yml --prune # update the environment ```
 7. [For more information about conda](https://kaust-vislab.github.io/python-novice-gapminder/00-getting-started-with-conda/index.html)
+8. Update torch with cuda
+``` bash
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+nvcc --version
+conda activate /data.local/linhlpv/envs/aicardio
+
+```
 
 ## Other check CUDA
 1. cuda version: ``` nvidia-smi ```

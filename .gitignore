@@ -130,4 +130,5 @@ dmypy.json
 
 # Other folders and files in project
 tmp/
+checkpoints/
 data/
